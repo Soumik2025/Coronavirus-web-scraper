@@ -4,8 +4,8 @@ import time
 
 # Data from worldometer
 
-PATH = "C:\Program Files (x86)\chromedriver.exe"
-URL = "https://www.worldometers.info/coronavirus/"
+PATH = "Chrome driver path" 
+URL = "https://www.worldometers.info/coronavirus/" # website url
 
 options = Options()
 options.add_argument("--headless")
